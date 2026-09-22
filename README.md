@@ -97,26 +97,3 @@ Os usuários são armazenados no arquivo `pessoas.db3`, dentro do diretório de 
 
 As senhas são mantidas em texto simples apenas por se tratar de um protótipo. Antes de distribuir o aplicativo, substitua esse mecanismo por hash de senha com salt e considere uma solução de autenticação apropriada ao produto.
 
-## Publicando no GitHub
-
-O arquivo `.gitignore` já exclui binários de compilação, configurações locais, bancos de dados e instaladores que estavam na pasta de recursos. Para criar o repositório:
-
-```bash
-git init
-git add .
-git commit -m "chore: estrutura inicial do aplicativo"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/sintomas-doencas.git
-git push -u origin main
-```
-
-## Próximos passos
-
-- Implementar o catálogo e a pesquisa de sintomas/doenças.
-- Criar testes para cadastro e autenticação.
-- Aplicar armazenamento seguro de credenciais.
-- Manter as capturas de tela da documentação atualizadas.
-
-## Licença
-
-Defina uma licença antes de publicar o projeto publicamente. A [MIT License](https://choosealicense.com/licenses/mit/) é uma opção simples e permissiva para projetos acadêmicos e pessoais.
