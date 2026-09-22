@@ -95,5 +95,3 @@ Também é possível abrir `SintomasDoencas.sln` no Visual Studio com o suporte 
 
 Os usuários são armazenados no arquivo `pessoas.db3`, dentro do diretório de dados da aplicação. Esse arquivo é criado em tempo de execução e não é versionado.
 
-As senhas são mantidas em texto simples apenas por se tratar de um protótipo. Antes de distribuir o aplicativo, substitua esse mecanismo por hash de senha com salt e considere uma solução de autenticação apropriada ao produto.
-
